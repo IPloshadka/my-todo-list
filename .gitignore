@@ -17,7 +17,7 @@ eggs/
 lib/
 lib64/
 parts/
-sdist/
+sdist
 var/
 wheels/
 share/python-wheels/
@@ -169,3 +169,10 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+# macOS system files
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+
